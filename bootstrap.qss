@@ -1,0 +1,72 @@
+/* General Window */
+QWidget {
+    background-color: #f8f9fa;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 13px;
+    color: #212529;
+}
+
+/* Buttons */
+QPushButton {
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: none;
+}
+QPushButton:hover {
+    background-color: #0b5ed7;
+}
+QPushButton:disabled {
+    background-color: #6c757d;
+    color: #dee2e6;
+}
+
+/* ComboBoxes */
+QComboBox {
+    background-color: white;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 3px;
+}
+QComboBox:hover {
+    border: 1px solid #0d6efd;
+}
+
+/* Sliders */
+QSlider::groove:horizontal {
+    border: 1px solid #dee2e6;
+    height: 6px;
+    background: #e9ecef;
+    border-radius: 3px;
+}
+QSlider::handle:horizontal {
+    background: #0d6efd;
+    border: 1px solid #0d6efd;
+    width: 14px;
+    height: 14px;
+    margin: -4px 0;
+    border-radius: 7px;
+}
+
+/* ScrollArea */
+QScrollArea {
+    border: 1px solid #dee2e6;
+    background: white;
+}
+
+/* Checkboxes */
+QCheckBox {
+    spacing: 5px;
+}
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+}
+
+/* Status bar */
+QStatusBar {
+    background: #f1f3f5;
+    border-top: 1px solid #dee2e6;
+    color: #495057;
+}
